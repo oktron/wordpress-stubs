@@ -6,6 +6,9 @@
         "wordpress",
         "static analysis"
     ],
+    "autoload": {
+        "files": [ "wordpress-stubs.php" ]
+    },
     "require-dev": {
         "giacocorsiglia/stubs-generator": "^0.1.0",
         "johnpbloch/wordpress": "4.9.4"
